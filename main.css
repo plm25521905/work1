@@ -1,0 +1,97 @@
+body{
+    margin: 0px;
+    padding: 0px;
+}
+
+input,button {
+    outline: none;
+}
+
+#viewer{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    height: 20%;
+    background: #EEEEEE;
+    text-align: right;
+}
+
+#viewer pre{
+    margin: 0%;
+    padding-right: 10px;
+}
+
+#viewer pre:first-child{
+    font-size: 1em;
+    height: 25%;
+    margin-top: 10px;
+}
+
+#viewer pre:first-child code{
+    color: #AAAAAA;
+}
+
+#viewer pre:nth-child(2){
+    font-size: 2.5em;
+    height: 70%;
+}
+
+#number_input{
+    position: absolute;
+    top: 20%;
+    left: 0%;
+    width: 60%;
+    height: 80%;
+    background: #FFFFFF;
+}
+
+#number_input button {
+    font-size: 28pt;
+    float: left;
+    width: 31.3%;
+    height: 23%;
+    margin: 1%;
+    color:#555555;
+    background: #FFFFFF;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+#number_input button:nth-last-child(2) {
+    width: 64.6%;
+}
+
+#number_input button:hover {
+    background: #EEEEEE;
+}
+
+#operator_input{
+    position: absolute;
+    top: 20%;
+    left: 60%;
+    width: 40%;
+    height: 80%;
+
+}
+
+#operator_input button {
+    font-size: 28pt;
+    float: left;
+    width: 47.5%;
+    height: 23.6%;
+    margin: 1%;
+    color:#555555;
+    background: #FFFFFF;
+    border: 1px solid #AAAAAA;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#operator_input button:last-child{
+    width: 95%;
+}
+
+#operator_input button:hover {
+    background: #EEEEEE;
+}
